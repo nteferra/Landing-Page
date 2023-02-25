@@ -62,11 +62,11 @@ body {
     color: #e5e7eb;
 }
 
-button {
+.button-one {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 600;
-    padding: 8px 32px;
+    padding: 8px 42px;
     border-radius: 8px;
     font-size: 18px;
 }
@@ -161,6 +161,7 @@ img {
     padding: 4em 8em;
     border: 2px solid #f9faf8;
     border-radius: 12px;
+    align-items: center;
 }
 .bold {
    font-size: 18pt; 
@@ -170,8 +171,16 @@ img {
     display: flex;
     flex-direction: column;
 }
-button {
+.button-two {
     border: 2px solid #f9faf8;
+    padding: 2px 32px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    font-size: 12pt;
+    font-weight: 600;
+    height: 40px;
+    
 }
 .footer {
     justify-content: center;
