@@ -14,6 +14,7 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    gap: 54px;
     
 }
 
@@ -32,7 +33,7 @@ body {
     font-size: 18px;
    
     display: flex;
-    gap: 16px;
+    gap: 96px;
     
 }
 
@@ -94,15 +95,15 @@ img {
     display: flex;
     font-size: 36px;
     color: #1f2937;
-    font-style: italic;
-    font-weight: 100;
+    font-style: italic ;
+    font-weight: -100;
     width: 830px;
 }
 
 .thor {
     display: flex;
-    font-weight: bold;
-    font-size: 16pt;
+    font-weight: bolder;
+    font-size: 18pt;
     width: 750px;
     justify-content: flex-end;
 }
@@ -147,7 +148,7 @@ img {
     margin-bottom: 8px;
 }
 .text {
-    display: flex;
+    color: rgb(99, 96, 96)
 }
 
 .sign-up {
@@ -174,4 +175,5 @@ button {
 }
 .footer {
     justify-content: center;
+    padding: 2em;
 }
