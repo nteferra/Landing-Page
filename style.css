@@ -180,6 +180,8 @@ img {
     font-size: 12pt;
     font-weight: 600;
     height: 40px;
+    display: flex;
+    align-items: center;
     
 }
 .footer {
