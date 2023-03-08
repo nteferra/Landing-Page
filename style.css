@@ -131,8 +131,14 @@ img {
     width: 200px;
     align-items: center;
     text-align: center;
+    transition: transform 0.4s; 
     
 }
+
+.container:hover {
+    transform: scale(1.2);
+}
+
 .title {
     font-size: 36px;
     font-weight: 900;
