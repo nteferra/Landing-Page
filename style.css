@@ -71,6 +71,10 @@ body {
     font-size: 18px;
 }
 
+.button-one:hover {
+    transform: scale(1.1);
+}
+
 img {
     max-width: 500px;
 }
@@ -190,6 +194,11 @@ img {
     align-items: center;
     
 }
+
+.button-two:hover {
+    transform: scale(1.1);
+}
+
 .footer {
     justify-content: center;
     padding: 2em;
